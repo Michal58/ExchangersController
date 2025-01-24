@@ -79,7 +79,7 @@ class DataModel: Codable {
         
         HealthManager.shared.getBurnedCaloriesAtDate(
             date: date,
-            interval: .month
+            interval: interval
         ) { calories in
             queryValue = calories
         }
