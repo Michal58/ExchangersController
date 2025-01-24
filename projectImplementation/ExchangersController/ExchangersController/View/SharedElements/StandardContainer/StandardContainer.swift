@@ -82,7 +82,7 @@ struct StandardContainer<Top: View, Bottom: View, Content: View>: View {
     }
     
     let bodyView = ForEach(1..<10){ i in
-        Tile()
+        Text("mock text")
     }
     
     let rightButton = Button(action: {
